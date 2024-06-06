@@ -20,4 +20,9 @@
       </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Variables.UnusedVariable" />
+    <rule ref="Squiz.Commenting.FunctionComment">
+      <properties>
+        <property name="skipIfInheritdoc" value="true" />
+      </properties>
+    </rule>
 </ruleset>
